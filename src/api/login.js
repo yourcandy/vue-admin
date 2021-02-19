@@ -3,7 +3,7 @@ import service from "@/utils/request";
 /**
  * 获取验证码
  */
-export function GetSms(data) {
+export function GetSms(data){
     return service.request({
         method: "post",
         url: "/getSms/",
@@ -15,7 +15,7 @@ export function GetSms(data) {
 /**
  * 获取用户角色
  */
-export function getUserRole(data = {}) {
+export function getUserRole(data = {}){
     return service.request({
         method: "post",
         url: "/userRole/",
@@ -27,7 +27,7 @@ export function getUserRole(data = {}) {
 /**
  * 退出
  */
-export function Logout(data = {}) {
+export function Logout(data = {}){
     return service.request({
         method: "post",
         url: "/logout/",
@@ -39,7 +39,7 @@ export function Logout(data = {}) {
 /**
  * 登录
  */
-export function Login(data) {
+export function Login(data){
     return service.request({
         method: "post",
         url: "/login/",
@@ -50,7 +50,7 @@ export function Login(data) {
 /**
  * 注册
  */
-export function Register(data) {
+export function Register(data){
     return service.request({
         method: "post",
         url: "/register/",
